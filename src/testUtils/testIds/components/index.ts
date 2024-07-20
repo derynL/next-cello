@@ -1,0 +1,25 @@
+export const SKY_BUTTON = {
+  BUTTON: 'SKY_BUTTON_BUTTON',
+};
+
+export const HEADER = {
+  ICON: 'HEADER_ICON',
+  NAVBAR: 'HEADER_NAVBAR',
+  LINK: 'HEADER_LINK',
+};
+
+export const PARAGRAPH = {
+  CONTENT: 'PARAGRAPH_CONTENT',
+};
+
+export const TITLE_GRADIENT = {
+  CONTENT: 'TITLE_GRADIENT_CONTENT',
+};
+
+export const TITLE_GRADIENT_XL = {
+  CONTENT: 'TITLE_GRADIENT_XL_CONTENT',
+};
+
+export const TITLE_MEDIUM = {
+  CONTENT: 'TITLE_MEDIUM_CONTENT',
+};

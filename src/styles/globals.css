@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: 'Google Sans Regular';
+  font-weight: normal;
+  font-display: swap;
+  src: url('./fonts/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Google Sans Bold';
+  font-weight: bold;
+  font-display: swap;
+  src: url('./fonts/GoogleSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Google Sans Italic';
+  font-weight: normal;
+  font-display: swap;
+  src: url('./fonts/GoogleSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Google Sans Medium';
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/GoogleSans-Medium.ttf');
+}
+body {
+  font-family: 'Google Sans Regular';
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+h1 h2 {
+  font-family: 'Google Sans Bold';
+}
+h3 h4 h5 {
+  font-family: 'Google Sans Medium';
+}
